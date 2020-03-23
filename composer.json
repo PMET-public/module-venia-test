@@ -1,0 +1,16 @@
+{
+  "name": "magentoese-venia-test",
+  "description": "",
+  "type": "magento2-module",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MagentoEse\\VeniaTest\\": ""
+    }
+  }
+}
