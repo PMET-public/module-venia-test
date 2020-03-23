@@ -5,6 +5,14 @@
   "require": {
       "magentoese/module-data-install": "dev-master"
   },
+    "extra": {
+        "map": [
+            [
+                "catalog",
+                "pub/media"
+            ]
+        ]
+    },
   "license": [
     "BSD-3-Clause"
   ],
