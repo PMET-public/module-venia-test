@@ -2,6 +2,9 @@
   "name": "magentoese/module-venia-test",
   "description": "",
   "type": "magento2-module",
+  "require": {
+      "magentoese/module-data-install": "dev-master"
+  },
   "license": [
     "BSD-3-Clause"
   ],
