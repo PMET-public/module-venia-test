@@ -21,9 +21,10 @@ class Test implements DataPatchInterface
 
     public function apply()
     {
-//        $this->process->loadFiles(['MagentoEse_VeniaTest::fixtures/categories.csv','MagentoEse_VeniaTest::fixtures/stores.csv',
+//        $this->process->loadFiles(['MagentoEse_VeniaTest::fixtures/categories.csv',
+//            'MagentoEse_VeniaTest::fixtures/stores.csv',
 //            'MagentoEse_VeniaTest::fixtures/product_attributes.csv']);
-        $this->process->loadFiles(['MagentoEse_VeniaTest::fixtures/categories.csv']);
+       $this->process->loadFiles(['MagentoEse_VeniaTest::fixtures/products.csv']);
     }
 
     public static function getDependencies()
