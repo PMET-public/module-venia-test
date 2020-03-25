@@ -8,8 +8,8 @@
     "extra": {
         "map": [
             [
-                "media",
-                "pub/media"
+                "media/catalog/category",
+                "pub/media/catalog"
             ]
         ]
     },
