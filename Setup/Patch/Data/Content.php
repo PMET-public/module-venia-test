@@ -30,9 +30,9 @@ class Content implements DataPatchInterface
         // Dynamic Block $content ='<a href="{{dynamicblock name="Foo of Bar Bar"}}" class="block-promo giftcard-mailed">';
         // attribute set $content ='<a href="{{attributeset name="Default"}}" class="block-promo giftcard-mailed">';
         // customer group $content ='<a href="{{customergroup name="Wholesale"}}" class="block-promo giftcard-mailed">';
-        //$content = '<li class="item"><a href="{{customerattribute code="test:er"}}">Dresses</a></li>';
-        //echo "BEFORE\n\n".$content."\n\n\n\n\n\n";
-        //echo "AFTER\n\n".$this->converter->convertRow($content)."\n\n\n\n\n\n";
+        $content = 'unique_id="{{dynamicblock name="Featured Products (VIP)"}}" type_name="Dynamic Blocks Rotator"}}';
+        echo "BEFORE\n\n".$content."\n\n\n\n\n\n";
+        echo "AFTER\n\n".$this->converter->convertContent($content)."\n\n\n\n\n\n";
         //echo $this->converter->convertRow('foobar');
         //$r=$e;
     }
@@ -40,7 +40,7 @@ class Content implements DataPatchInterface
     public
     static function getDependencies()
     {
-        return [];
+        return [Test::class];
     }
 
     public
