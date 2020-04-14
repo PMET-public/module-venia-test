@@ -28,7 +28,8 @@ class Test implements DataPatchInterface
 //           'MagentoEse_VeniaTest::fixtures/productasdaffffs.csv',
 //            'MagentoEse_VeniaTest::fixtures/blocks.csv',
 //            'MagentoEse_VeniaTest::fixtures/dynamic_blocks.csv','MagentoEse_VeniaTest::fixtures/pages.csv']);
-        $this->process->loadFiles(['MagentoEse_VeniaTest::fixtures/config.json','MagentoEse_VeniaTest::fixtures/config.csv']);
+        //$this->process->loadFiles(['MagentoEse_VeniaTest::fixtures/config.json','MagentoEse_VeniaTest::fixtures/config.csv']);
+        $this->process->loadFiles(['MagentoEse_VeniaTest::fixtures/customers.csv']);
         //$q=$o;
     }
 

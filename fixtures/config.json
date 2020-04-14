@@ -59,6 +59,21 @@
             }
         },
         "configuration": {
+            "magentoese_autofill": {
+                "persona_1": {
+                    "enable": {
+                        "scopes":{
+                            "default": {
+                                "value": true
+                            },
+                            "store": {
+                                "value": true
+                            }
+                        },
+
+                    }
+                }
+            },
             "shipping": {
                 "origin": {
                     "street_line1": {
